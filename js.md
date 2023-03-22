@@ -182,4 +182,16 @@ console.log(c,p); */
 // var a = -8
 // var b = -6
 // var c = -4
-// console.log();
+// console.log(a > 0 && b <0 && c <0) || ( a < 0 && b > 0 && c >0 );
+//13-misol
+// var a = +prompt("a son");
+// var b = +prompt("b son");
+// var c = +prompt("c son");
+// console.log((a < 0 && b > 0 && c > 0) || ( a > 0 && b < 0 && c < 0 ));
+
+// 14 misol
+// var a = +prompt("a son")
+// var b = +prompt("b son ")
+// var c = +prompt("c son ")
+// console.log((a < 0 && b > 0 && c > 0) || ( a > 0 && b < 0 && c < 0 ));
+//15-misol
