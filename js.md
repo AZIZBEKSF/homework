@@ -13,9 +13,11 @@ if(a+1){
     console.log("2ga kamaytrildi");
 }
 3-misol
-var a = prompt("son kriting")
-if(a+1){
-    console.log("1 ga oshirildi");
-}else if(a-2){
-    console.log("2ga kamaytrildi");
-}else(a != 0 <10)
+
+var a = +prompt("sonni kiriting")
+ if( a > 0 ){
+     console.log( a + 1 );
+ }else if( a < 0 ){ 
+    console.log( a - 2 );
+ }else if( a == 0 ){
+     console.log( 10 ); }
